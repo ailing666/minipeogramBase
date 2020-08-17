@@ -1,0 +1,7 @@
+<button bindtap="toastClick">消息提示框</button>
+<button bindtap="imgClick">消息提示框(图片)</button>
+
+<button bindtap="modelClick">弹出模态框</button>
+
+<button bindtap="loadClick">弹出loading框</button>
+<button bindtap="ActionSheet">弹出ActionSheet</button>

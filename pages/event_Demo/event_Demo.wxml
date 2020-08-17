@@ -1,0 +1,9 @@
+<view class="box" bindtap="bubbleClick">
+	<!-- 普通的点击事件 -->
+	<button size="mini" bindtap="btnClick">普通点击</button>
+
+	<button size="mini" catchtap="stopBubble">阻止冒泡</button>
+	<!-- 默认参数事件对象 -->
+	<button size="mini" bindtap="eventClick">事件对象点击</button>
+
+</view>

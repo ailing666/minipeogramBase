@@ -1,0 +1,15 @@
+<!-- 文本渲染 -->
+<text>{{msg}}</text>
+
+<!-- 属性绑定 -->
+<image src="{{imgUrl}}"></image>
+
+<!-- 条件判断 -->
+<view wx:if="{{isShow}}">{{isShow?'显示':'隐藏'}}</view>
+<view wx:else>Mojito</view>
+
+
+<!-- 循环 -->
+<view wx:for="{{list}}">{{index}}--{{item}}</view>
+<!-- 自定义循环中的每一项 -->
+<view wx:for="{{list}}" wx:for-item="al">{{index}}--{{al}}</view>

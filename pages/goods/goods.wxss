@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 234px;
+  height: 324px;
+  padding: 30px ;
+  border: 1px solid #f34;
+  box-sizing: border-box;
+}
+.box image{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 44px;
+}
+
+.box .name{
+  line-height: 24px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.box .price{
+  margin-top: 10px;
+  align-self: flex-start;
+  color: #f34;
+  font-size: 12px;
+}
+
+.box .price text{
+  font-size: 18px;
+  font-weight: 700;
+}
+
