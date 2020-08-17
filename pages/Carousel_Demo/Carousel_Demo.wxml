@@ -1,0 +1,8 @@
+<view class="box">
+	<div class="title">轮播图</div>
+	<image src="{{imgList[index]}}"></image>
+	<view class="buttom">
+		<button size="mini" class="prev" bindtap="prevClick">上一张</button>
+		<button size="mini" bindtap="nextClick">下一张</button>
+	</view>
+</view>
