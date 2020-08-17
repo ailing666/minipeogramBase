@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/this_Demo/this_Demo",
     "pages/show_Demo/show_Demo",
     "pages/event_Demo/event_Demo",
     "pages/data_Demo/demo",
