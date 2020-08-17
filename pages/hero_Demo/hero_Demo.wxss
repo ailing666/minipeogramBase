@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 33.33%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.box .item image {
+  width: 80px;
+  height: 80px;
+}
+.box .item text {
+  font-size: 14px;
+  margin: 8px 0;
+}

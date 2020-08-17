@@ -1,0 +1,6 @@
+<view class="box">
+	<view class="item" wx:for="{{heroList}}">
+		<image src="{{item.icon}}"></image>
+		<text bindtap="click"> {{item.heroName}} </text>
+	</view>
+</view>
