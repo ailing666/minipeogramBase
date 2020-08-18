@@ -1,0 +1,6 @@
+<view class="page">
+	<view wx:for="{{lolList}}" wx:key="id" class="list" bindtap="toDetails" data-id="{{item.id}}">
+		<image src="{{item.iconUrl}}"></image>
+		<text>{{item.name}}</text>
+	</view>
+</view>

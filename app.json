@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/lol_Demo/lol_Demo",
+    "pages/lol_Details/lol_Details",
     "pages/hero_Demo/hero_Demo",
     "pages/daily_Demo/daily_Demo",
     "pages/swiper_Demo/swiper_Demo",
