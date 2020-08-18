@@ -1,16 +1,22 @@
-import lolDetails from '../../data/lol_details_duowan'
+import lolDetails, { indexOf } from '../../data/lol_details_duowan'
 Page({
   /**
    * 页面的初始数据
    */
   data: {
-    lolDetails: lolDetails
+    heroArr: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {},
+  onLoad: function (options) {
+    this.setData({
+      heroArr: lolDetails.find(item => {
+        return item.id === options.id
+      })
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

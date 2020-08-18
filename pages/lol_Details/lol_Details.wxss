@@ -1,16 +1,51 @@
-.page {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #576878;
+.details {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-color: #363636;
 }
-.list {
+.details .main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 33.33%;
+  justify-content: space-between;
+  padding: 0 5px;
 }
-.list image {
-  width: 80px;
-  height: 80px;
-  margin-top: 10px;
+.details .main .left .progress {
+  margin-top: 20px;
+}
+
+.details .main .left .progress view {
+  display: flex;
+}
+.details .main .left .progress progress {
+  flex: 1;
+}
+.details .main .left {
+  width: 50%;
+  margin-right: 20px;
+}
+.details .main .right {
+  width: 50%;
+}
+.details swiper {
+  height: 139px;
+  margin-bottom: 5px;
+}
+.details swiper-item image {
+  width: 100%;
+  height: 139px;
+}
+.details .title {
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+  font-weight: 700;
+}
+.details .tags {
+  display: flex;
+}
+.details .tags view {
+  padding: 3px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  background-color: #0f9a7d;
+  border-radius: 4px;
 }

@@ -18,7 +18,10 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#354559",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "英雄列表"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
