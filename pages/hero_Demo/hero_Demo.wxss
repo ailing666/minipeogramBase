@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 33.33%;
+  flex: 0 0 33.33%;
   overflow: hidden;
   white-space: nowrap;
 }

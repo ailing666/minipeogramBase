@@ -346,11 +346,6 @@ const heroList = [
     heroName: '九品芝麻官',
     icon: 'http://p0.qhimg.com/dr/72__/t012066813a26a7cca6.png',
     skill: '注射！'
-  },
-  {
-    heroName: '',
-    icon: '',
-    skill: ''
   }
 ]
 export default heroList
