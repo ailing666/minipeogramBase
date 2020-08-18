@@ -26,7 +26,7 @@ Page({
     wx.showToast({
       title: '真相只有一个', //提示的内容
       icon: 'waring', //显示图标
-      image: '/images/01.jpg',
+      image: '/images/01.jpg', //图片优先级高于图标
       duration: 3000, //提示的延迟时间,默认1.5
       mask: false, //是否显示透明蒙层，防止触摸穿透
       success () {
