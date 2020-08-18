@@ -1,6 +1,6 @@
 <view class="box">
-	<view class="item" wx:for="{{heroList}}">
+	<navigator class="item" wx:for="{{heroList}}" wx:key="id" url="/pages/daily_Demo/daily_Demo?skill={{item.skill}}">
 		<image src="{{item.icon}}"></image>
 		<text bindtap="click"> {{item.heroName}} </text>
-	</view>
+	</navigator>
 </view>
