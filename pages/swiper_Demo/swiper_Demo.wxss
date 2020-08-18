@@ -1,0 +1,9 @@
+swiper {
+  width: 400px;
+  height: 400px;
+}
+
+swiper-item image {
+  width: 400px;
+  height: 400px;
+}

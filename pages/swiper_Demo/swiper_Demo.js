@@ -1,4 +1,3 @@
-// pages/hero_Demo/hero_Demo.js
 import heroList from '../../data/heroList'
 Page({
   /**
@@ -7,9 +6,7 @@ Page({
   data: {
     heroList: heroList
   },
-  click () {
-    console.log(heroList)
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,16 @@
+<!-- 
+  indicator-dots   是否显示指示点
+  indicator-color 非激活状态提示点的颜色
+  indicator-active-color 激活状态提示点的颜色
+  autoplay 自动轮播
+  interval 间隔时间
+  duration 每次划的动画时间
+  circular 无限轮播
+ -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#f34" autoplay interval="1000" duration="200" circular>
+	<block wx:for="{{heroList}}" wx:key="id">
+		<swiper-item>
+			<image src="{{item.icon}}"></image>
+		</swiper-item>
+	</block>
+</swiper>
