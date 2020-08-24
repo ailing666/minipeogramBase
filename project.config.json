@@ -27,7 +27,7 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
@@ -70,6 +70,19 @@
 					"name": "pages/lol_Details/lol_Details",
 					"pathName": "pages/lol_Details/lol_Details",
 					"query": "id=Sylas",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/liveTime/liveTime",
+					"pathName": "pages/liveTime/liveTime",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/pagesLive/pagesLive",
+					"pathName": "pages/pagesLive/pagesLive",
 					"scene": null
 				}
 			]

@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/item/item",
+    "pages/search_list/search_list",
     "pages/lol_Demo/lol_Demo",
     "pages/lol_Details/lol_Details",
     "pages/hero_Demo/hero_Demo",
@@ -22,6 +26,18 @@
     "navigationBarBackgroundColor": "#354559",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "英雄列表"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
