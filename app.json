@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/author/author",
+    "pages/step/step",
     "pages/home/home",
     "pages/category/category",
     "pages/item/item",
@@ -29,7 +30,8 @@
     "navigationBarTitleText": "英雄列表"
   },
   "tabBar": {
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/home/home",
         "text": "首页"
       },
@@ -43,9 +45,6 @@
   "sitemapLocation": "sitemap.json",
   "permission": {
     "scope.userLocation": {
-      "desc": "你的位置信息将用于小程序位置接口的效果展示"
-    },
-    "scope.address": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
   }

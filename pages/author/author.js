@@ -4,6 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {},
+  // 授权获取地址
   getAddress () {
     wx.authorize({
       scope: 'scope.userLocation',
@@ -16,6 +17,7 @@ Page({
       }
     })
   },
+  // 授权获取通讯录地址
   getPhoneAddress () {
     wx.authorize({
       scope: 'scope.address',
@@ -28,29 +30,9 @@ Page({
       }
     })
   },
-  getStep () {
-    wx.authorize({
-      scope: 'scope.werun',
-      success: () => {
-        wx.getWeRunData({
-          success (res) {
-            console.log(res)
-            self.getWeRunData()
-            // // 拿 encryptedData 到开发者后台解密开放数据
-            // const encryptedData = res.encryptedData
-            // // 或拿 cloudID 通过云调用直接获取开放数据
-            // const cloudID = res.cloudID
-          }
-        })
-      }
-    })
-  },
-  getWeRunData () {
-    wx.getWeRunData({
-      success (res) {
-        console.log(res)
-      }
-    })
+  // 授权获取用户信息
+  getUinfo (e) {
+    console.log(e.detail.userInfo)
   },
   /**
    * 生命周期函数--监听页面加载
