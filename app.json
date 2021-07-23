@@ -1,23 +1,23 @@
 {
   "pages": [
-    "pages/author/author",
+    "pages/Carousel_Demo/Carousel_Demo",
+    "pages/data_Demo/demo",
+    "pages/logs/logs",
+    "pages/lol_Demo/lol_Demo",
+    "pages/this_Demo/this_Demo",
+    "pages/item/item",
+    "pages/index/index",
     "pages/home/home",
     "pages/category/category",
-    "pages/item/item",
+    "pages/author/author",
     "pages/search_list/search_list",
-    "pages/lol_Demo/lol_Demo",
     "pages/lol_Details/lol_Details",
     "pages/hero_Demo/hero_Demo",
     "pages/daily_Demo/daily_Demo",
     "pages/swiper_Demo/swiper_Demo",
-    "pages/Carousel_Demo/Carousel_Demo",
-    "pages/this_Demo/this_Demo",
     "pages/show_Demo/show_Demo",
     "pages/event_Demo/event_Demo",
-    "pages/data_Demo/demo",
-    "pages/goods/goods",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/goods/goods"
   ],
   "window": {
     "backgroundTextStyle": "light",
